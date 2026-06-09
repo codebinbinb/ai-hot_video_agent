@@ -1,0 +1,50 @@
+# ===== 机密 / 凭据（严禁入库）=====
+.env
+.env.*
+*.env
+secrets.*
+**/config.local.json
+.devin/config.local.json
+*token*.txt
+*apikey*
+*api_key*
+
+# ===== Playwright / 浏览器自动化产物 =====
+.playwright-mcp/
+playwright-report/
+test-results/
+gaofei-dashboard.png
+**/screenshots/
+
+# ===== Node / 前端 =====
+node_modules/
+dist/
+build/
+.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ===== Python / 后端 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ===== 媒体 / 生成产物（按需保留，默认不入库大文件）=====
+*.mp4
+*.mov
+*.wav
+*.mp3
+output/
+generated/
+
+# ===== 操作系统 / IDE =====
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
